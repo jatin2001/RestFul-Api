@@ -1,8 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const bcrypt = require('bcrypt');
-const { response } = require('express');
 const app = express();
 app.use(bodyParser.urlencoded({extended:true}));
 mongoose.connect('mongodb+srv://admin-jatin:9873804639@cluster0.ktbyq.mongodb.net/RestApi', {useNewUrlParser: true, useUnifiedTopology: true});
